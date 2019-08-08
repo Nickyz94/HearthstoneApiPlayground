@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./generated/spec",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  },
+  "files": [
+    "static/test.ts",
+    "static/polyfills.ts"
+  ],
+  "include": [
+    "static/**/*.spec.ts",
+    "static/**/*.d.ts"
+  ]
+}
